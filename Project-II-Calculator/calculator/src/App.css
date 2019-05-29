@@ -1,0 +1,60 @@
+body {
+  width: 20rem;
+}
+
+section div {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.display {
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+.display p {
+  font-size: 3rem;
+  text-align: right;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-right: 1rem;
+}
+
+.action {
+  width: 75%;
+  text-align: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.sign {
+  width: 25%;
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.number {
+  width: 25%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-image: initial;
+}
